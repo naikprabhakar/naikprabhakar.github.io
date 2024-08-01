@@ -17,9 +17,19 @@
             color: white;
             padding: 20px 0;
             text-align: center;
+            position: relative; /* Added to position the image */
         }
         header h1 {
             margin: 0;
+        }
+        .profile-image {
+            position: absolute;
+            top: 10px; /* Adjust as necessary */
+            right: 10px; /* Adjust as necessary */
+            width: 60px; /* Adjust size as necessary */
+            height: 60px; /* Adjust size as necessary */
+            border-radius: 50%;
+            border: 2px solid white; /* Optional: Add a border around the image */
         }
         nav {
             background-color: #333;
@@ -99,6 +109,7 @@
     <header>
         <h1>Naik Brothers</h1>
         <p>Civil Contractors in Mumbai</p>
+        <img src="/PP.jpg" alt="Profile Image" class="profile-image">
     </header>
     <nav>
         <ul>
